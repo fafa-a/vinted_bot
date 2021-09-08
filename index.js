@@ -104,6 +104,7 @@ const syncSubscription = (sub) => {
                 .addField("Taille", item.size || "vide", true)
                 .addField("Prix", item.price || "vide", true)
                 .addField("Condition", item.status || "vide", true)
+                .addField("sub_ID", sub.id || "vide", true)
               client.channels.cache
                 .get(sub.channelID)
                 ?.send({ embeds: [embed] })
