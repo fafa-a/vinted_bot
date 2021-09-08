@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "discord-sync-commands": "^0.2.0",
     "discord.js": "^13.1.0",
